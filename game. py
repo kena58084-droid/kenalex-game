@@ -1,0 +1,20 @@
+# kenalex-game: Number Guessing Game
+import random
+
+print("Welcome to kenalex-game!")
+print("I'm thinking of a number between 1 and 20")
+
+secret_number = rendom.randint(1, 20)
+guesses =0 
+
+while True:
+guess = int(input("Take a guess: "))
+guesses = guesses + 1
+
+if guess < secret_number:
+print("Too low!")
+elift guess > secret_number:
+print("Too high!")
+else:
+print("You got it in", guesses, "guesses!")
+break
